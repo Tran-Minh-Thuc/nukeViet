@@ -1,0 +1,38 @@
+[Tue, 25 Apr 2023 20:50:17 +0700] [localhost] [127.0.0.1] [User Notice(1024): SQLSTATE[HY000] [1049] Unknown database 'nukeviet'] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 94]
+[Tue, 25 Apr 2023 21:58:11 +0700] [localhost] [::1] [Run-time notices(8192): http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated] [FILE: /vendor/vinades/nukeviet/Http/Http.php] [LINE: 215]
+[Tue, 25 Apr 2023 22:10:03 +0700] [localhost] [::1] [Warning(2): Undefined variable $detail] [FILE: /modules/news/global.functions.php] [LINE: 241]
+[Tue, 25 Apr 2023 22:36:21 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function nv_link_delete_page() in D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\admin\main.php:813
+Stack trace:
+#0 D:\program files\xampp\htdocs\nukeviet\nukeviet\admin\index.php(182): require()
+#1 {main}
+  thrown] [FILE: /modules/news/admin/main.php] [LINE: 813]
+[Tue, 25 Apr 2023 23:15:27 +0700] [localhost] [::1] [Error(1): Uncaught ArgumentCountError: Too few arguments to function nv_link_export_pdf_page(), 1 passed in D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\admin\main.php on line 817 and exactly 2 expected in D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\global.functions.php:241
+Stack trace:
+#0 D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\admin\main.php(817): nv_link_export_pdf_page(3)
+#1 D:\program files\xampp\htdocs\nukeviet\nukeviet\admin\index.php(182): require('D:\\program file...')
+#2 {main}
+  thrown] [FILE: /modules/news/global.functions.php] [LINE: 241]
+[Tue, 25 Apr 2023 23:16:22 +0700] [localhost] [::1] [Warning(2): Undefined variable $author] [FILE: /modules/news/global.functions.php] [LINE: 245]
+[Tue, 25 Apr 2023 23:37:58 +0700] [localhost] [::1] [Error(1): Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' . NV_PREFIXLANG . '_' . news . '_rows WHERE id=' . (int) 3' at line 1 in D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\global.functions.php:247
+Stack trace:
+#0 D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\global.functions.php(247): mysqli_query(Object(mysqli), 'SELECT * FROM '...')
+#1 D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\admin\main.php(817): nv_link_export_pdf_page(3)
+#2 D:\program files\xampp\htdocs\nukeviet\nukeviet\admin\index.php(182): require('D:\\program file...')
+#3 {main}
+  thrown] [FILE: /modules/news/global.functions.php] [LINE: 247]
+[Tue, 25 Apr 2023 23:39:01 +0700] [localhost] [::1] [Error(1): Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\global.functions.php:245
+Stack trace:
+#0 D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\global.functions.php(245): mysqli_set_charset(NULL, 'UTF8')
+#1 D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\admin\main.php(817): nv_link_export_pdf_page(3)
+#2 D:\program files\xampp\htdocs\nukeviet\nukeviet\admin\index.php(182): require('D:\\program file...')
+#3 {main}
+  thrown] [FILE: /modules/news/global.functions.php] [LINE: 245]
+[Tue, 25 Apr 2023 23:39:16 +0700] [localhost] [::1] [Warning(2): Undefined variable $data] [FILE: /modules/news/global.functions.php] [LINE: 254]
+[Wed, 26 Apr 2023 00:09:13 +0700] [localhost] [::1] [Warning(2): require_once(../../dompdf/autoload.inc.php): Failed to open stream: No such file or directory] [FILE: /modules/news/global.functions.php] [LINE: 753]
+[Wed, 26 Apr 2023 00:09:13 +0700] [localhost] [::1] [Error(1): Uncaught Error: Failed opening required '../../dompdf/autoload.inc.php' (include_path='D:\program files\xampp\php\PEAR') in D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\global.functions.php:753
+Stack trace:
+#0 D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\admin.functions.php(55): require_once()
+#1 D:\program files\xampp\htdocs\nukeviet\nukeviet\admin\index.php(150): require('D:\\program file...')
+#2 {main}
+  thrown] [FILE: /modules/news/global.functions.php] [LINE: 753]
+[Wed, 26 Apr 2023 01:29:19 +0700] [localhost] [::1] [Warning(2): Undefined variable $homeatext] [FILE: /modules/news/global.functions.php] [LINE: 248]

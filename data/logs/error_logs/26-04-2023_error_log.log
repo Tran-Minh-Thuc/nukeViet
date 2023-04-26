@@ -1,0 +1,12 @@
+[Wed, 26 Apr 2023 07:42:53 +0700] [localhost] [::1] [Error(1): Uncaught TypeError: imagedestroy(): Argument #1 ($image) must be of type GdImage, null given in D:\program files\xampp\htdocs\nukeviet\nukeviet\vendor\vinades\nukeviet\Files\Image.php:1106
+Stack trace:
+#0 D:\program files\xampp\htdocs\nukeviet\nukeviet\vendor\vinades\nukeviet\Files\Image.php(1106): imagedestroy(NULL)
+#1 D:\program files\xampp\htdocs\nukeviet\nukeviet\vendor\vinades\nukeviet\Files\Image.php(1096): NukeViet\Files\Image->Destroy()
+#2 D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\blocks\module.block_newscenter.php(217): NukeViet\Files\Image->save('D:/program file...', 'D:/program file...')
+#3 D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\blocks\module.block_newscenter.php(278): nv_news_block_newscenter(Array)
+#4 D:\program files\xampp\htdocs\nukeviet\nukeviet\includes\core\user_functions.php(178): include('D:\\program file...')
+#5 D:\program files\xampp\htdocs\nukeviet\nukeviet\themes\default\theme.php(378): nv_blocks_content('<!DOCTYPE html>...')
+#6 D:\program files\xampp\htdocs\nukeviet\nukeviet\modules\news\funcs\main.php(362): nv_site_theme('<div class="new...')
+#7 D:\program files\xampp\htdocs\nukeviet\nukeviet\index.php(364): require('D:\\program file...')
+#8 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Files/Image.php] [LINE: 1106]
